@@ -9,6 +9,6 @@ router.post('/books', bookController.newBook);
 router.get('/books', bookController.getBooks)
 router.get('/books/:id', bookController.getBookById)
 router.delete('/books/:id', bookController.deleteBook)
-router.put('/books', bookController.updateBook)
+router.put('/books/:id', bookController.updateBook)
 // 4.
 module.exports = router; // export to use in server.js

@@ -18,3 +18,6 @@ By default this app will create an sqlite DB in the location `db.sqlite`
 ```
 DATA_PATH
 ```
+
+# Test your app
+Please use the postman_collection in this repo for testing your app. 

@@ -6,7 +6,7 @@ let db = new sqlite3.Database(dbLocation, (err) => {
     console.log('Connected to the SQlite database.');
 });
 
-db.run(`CREATE TABLE IF NOT EXISTS books (id INTEGER PRIMARY KEY, name TEXT, author TEXT)`, (err) => {
+db.run(`CREATE TABLE IF NOT EXISTS books (id INTEGER PRIMARY KEY, title TEXT, author TEXT)`, (err) => {
     if (err) throw err;
     console.log('Table created');
 });
